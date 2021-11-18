@@ -8,16 +8,16 @@ function App() {
   return (
     <Router>
 
-      <Header />
       <div className="app">
         <Routes>
+          <Header />
           <Route path="/checkout" element={"Checkout"}>
 
           </Route>
           <Route path="/login" element={"Login Page"} >
 
           </Route>
-          <Route path="/" element={"Home Page"} >
+          <Route path="/" element={ } >
 
           </Route>
         </Routes>

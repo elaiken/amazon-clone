@@ -8,9 +8,9 @@ function App() {
   return (
     <Router>
 
-      <Header />
       <div className="app">
         <Routes>
+          <Header />
           <Route path="/checkout" element={"Checkout"}>
 
           </Route>

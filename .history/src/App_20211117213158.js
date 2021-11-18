@@ -8,7 +8,6 @@ function App() {
   return (
     <Router>
 
-      <Header />
       <div className="app">
         <Routes>
           <Route path="/checkout" element={"Checkout"}>
@@ -17,12 +16,12 @@ function App() {
           <Route path="/login" element={"Login Page"} >
 
           </Route>
-          <Route path="/" element={"Home Page"} >
+          <Route path="/" element={"HOME PAGE", <Header />}>
 
           </Route>
         </Routes>
       </div>
-    </Router >
+    </Router>
   );
 }
 
