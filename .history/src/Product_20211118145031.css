@@ -1,0 +1,8 @@
+.product__rating{
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+}
