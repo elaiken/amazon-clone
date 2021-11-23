@@ -1,0 +1,19 @@
+.login {
+    display: flex;
+    background-color: white;
+    height: 100vh;
+
+}
+
+
+
+.login__container {
+    width: 300px;
+}
+
+
+.login__logo{
+    width: 100px;
+    object-fit: contain;
+
+}
